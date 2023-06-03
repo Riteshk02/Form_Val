@@ -1,0 +1,76 @@
+.main_div{
+    text-align: center;
+    border: 1px solid black;
+    height: 710px;
+    width: 100%;
+    background-image: url(../image/moun.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+
+#form{
+    box-shadow: 0px 0px 10px 0px white;
+    background-color: rgba(184, 133, 233,0.6);
+    border-radius: 20px;
+   font-size: 15px;
+    padding-top:20px;
+    margin-left: 400px;
+    margin-top: 150px;
+    height: 350px;
+    width: 720px;
+    text-align: center;
+}
+
+
+
+#form button{
+    margin-right: 1px;
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+}
+
+
+#form button:hover{
+    color: white;
+    background-color: rgb(29, 28, 28);
+}
+
+.input-group input{
+    border-radius: 5px;
+    
+}
+
+#label1{
+    margin-left:-33px;
+}
+
+#label3{
+    margin-left:-5px;
+}
+
+#label4{
+    margin-left:-24px;
+}
+
+
+#show-pw1{
+    position: absolute;
+    right: 640px;
+    top: 281px;
+}
+
+
+#show-pw2{
+    position: absolute;
+    right: 640px;
+    top: 301.5px;
+}
+
+
+
+

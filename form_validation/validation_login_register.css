@@ -1,0 +1,82 @@
+#login{
+    height: 510px;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(../image/moun.jpg);
+    background-size: cover;
+}
+
+
+#register{
+    height: 510px;
+    align-items: center;
+    padding-top: 200px;
+    background-image: url(../image/moun.jpg);
+    background-size: cover;
+}
+
+#label2{
+    margin-left: 25px;
+}
+
+#label4{
+    margin-left: -53px;
+}
+#label3{
+    margin-left:10px;
+}
+
+#main_div{
+    text-align: center;
+    height: 370px;
+    padding-top: 40px;
+    width: 500px;
+    margin-left: 500px;
+    background-color: rgba(184, 133, 233,0.4);
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px;
+    padding-bottom: 40px;
+}
+
+#main_div1{
+    text-align: center;
+    height: 370px;
+    padding-top: 40px;
+    width: 500px;
+    margin-left: 500px;
+    background-color: rgba(184, 133, 233,0.4);
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 2px;
+    padding-bottom: 40px;
+}
+
+
+#form2{
+    margin-top: 40px;
+}
+
+#but1{
+    padding:15px 105px;
+}
+
+#but2{
+    padding:15px 100px;
+    margin-left: -5px;
+}
+
+
+#but3{
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+
+#name1{
+    margin-left: 25px;
+}
+
+#name2{
+    margin-left: 2px;
+}

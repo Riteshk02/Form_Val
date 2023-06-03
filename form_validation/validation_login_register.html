@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/assignment5.css">
+</head>
+<body>
+    <div id="login">
+        <form action="#" id="main_div">
+            <input id="but1" onclick="login()" type="button" value="Login">
+            <input id="but2" onclick="reg()"type="button" value="Register">
+<br>
+<br>
+            <div id="form2"> 
+                <label id="name1" for="Login_name">Name:</label>
+                <input onblur="foc()" type="text" id="Login_Ename" placeholder="Enter your name" required>
+                <div id="error1"></div>
+                <br>
+                <label id="name2" for="Login_Ename">password:</label>
+                <input onblur="foc1()" type="password" id="Login_pw1" placeholder="Enter your Password" required>
+                <div id="error2"></div>
+<br>
+                <input id="but3" onclick="sub1()" type="button" value="Submit">
+<br>
+                <!-- <a href="../html/assignment validation.html">Create Account?</a> -->
+            </div>
+        </form>
+    </div>
+
+
+    <div id="register" style="display: none;">
+        <form action="#" id="main_div1">
+
+            <input id="but1" onclick="login()" type="button" value="Login">
+            <input id="but2" onclick="reg()"type="button" value="Register">
+<br>
+<br>
+            <div id="form2"> 
+                <label id="name1" for="Login_name">Name:</label>
+                <input onblur="foc3()" type="text" id="Login_Ename2" placeholder="Enter your name" required>
+                <div id="error3"></div>
+                <br>
+                <label for="email" class="labels" id="label2">Email:</label>
+                <input type="email" class="labels"  id="email" onblur="foc4()"  placeholder="Enter your email" required>
+                <div id="error4"></div>
+                <br>
+
+                <label id="name2" for="Login_Ename">password:</label>
+                <input onblur="foc5()" type="password" id="Login_pw2" placeholder="Enter your Password" required>
+                <div id="error5"></div>
+
+                <br>
+                <label for="cpassword" class="labels" id="label4">confirm Password:</label>
+                <input onblur="foc6()"  type="password" class="labels"  id="cpassword" placeholder="Enter your confirm password" required>
+                <div id="error6"></div>
+                
+                <input id="but3" onclick="sub2()" type="button" value="Submit">
+<br>
+                <a href="../html/assignment validation.html">Create Account?</a>
+
+            </div>
+    <script src="../js/assignment.5.js"></script>
+</body>
+</html>

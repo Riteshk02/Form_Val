@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/assignment validation.css">
+    <style>
+        .invalid{
+            border-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_div">
+        <form action="" id="form">
+            <h3>Create login</h3>
+            <div class="input-group">
+                <label for="Username" class="labels" id="label1">Student User Name:</label>
+                <input onblur="foc1()"  type="text" class="labels"  id="Login_Ename" placeholder="Enter your name">
+
+                <div id="error1"></div>
+            </div>
+            <div class="input-group">
+                <label for="email" class="labels" id="label2">Student Email:</label>
+                <input onblur="foc2()" type="email" class="labels"  id="email" placeholder="Enter your email">
+
+                <div id="error2"></div>
+            </div>
+            <div class="input-group">
+                <label for="password" class="labels" id="label3">New Password:</label>
+                <input onblur="foc3()" type="password" class="labels"  id="password" placeholder="Enter your password">
+                <i class="fa-solid fa-eye" id="show-pw1" ></i>
+                <div id="error3"></div>
+            </div>
+            <div class="input-group">
+                <label for="cpassword" class="labels" id="label4">confirm Password:</label>
+                <input onblur="foc4()" type="password" class="labels"  id="cpassword" placeholder="Enter your confirm password">
+                <i class="fa-solid fa-eye" id="show-pw2" ></i>
+                <div id="error4"></div>
+
+            </div>
+            <br>
+            <button onclick="sub1(event)">Submit</button>
+<br>
+<br>
+            <a href="../html/assignment5.html">Already have an Account??Log-in!!</a>
+        </form>
+    </div>
+
+    <script src="../js/assignment validation.js"></script>
+
+    <script src="https://kit.fontawesome.com/074ba551d9.js" crossorigin="anonymous"></script>
+</body>
+</html>
